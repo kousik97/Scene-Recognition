@@ -70,7 +70,7 @@ if __name__ == '__main__':
         l=main(os.path.join(dir, file),VGG_S_Net,index_list)
         if(l!=-1):
             df=df.append(pd.Series([file]+[dir.split('/')[1]]+l, index=["Image Name","Class SmartPic","Category 1","Prob 1","Category 2","Prob 2","Category 3","Prob 3","Category 4","Prob 4","Category 5","Prob 5"]),ignore_index=True)
-    df.to_csv("demo.csv", sep=',')
+    df.to_csv("result.csv", sep=',')
   else:
      print("No Image found")
      print("Use python Scene.py -i path_to_image")
