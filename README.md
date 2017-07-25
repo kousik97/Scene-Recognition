@@ -22,7 +22,7 @@ All codes are tested on a container built from Ubuntu 14.04 CPU/GPU docker image
 2. To find scene context of an image, run python Scene.py -i /full/path/to/image
 3. To find scene contexts of all images inside a directory, run python Scene.py -d /path/to/directory. This will store the results in result.csv file
 
-For a quick testing, use the sample images provided in the example_images directory.
+For quick results, use the sample images provided in the example_images directory.
 
 
 ## References
